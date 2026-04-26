@@ -98,3 +98,40 @@ const remNum1 = 45;
 const remNum2 = 20;
 const reminder = remNum1 % remNum2;
 console.log("Reminder: ", reminder);
+
+// 7. Comparison Operators
+
+// Check karo 5 == 5 (result print karo).
+let compOp1 = 5;
+let compOp2 = 5;
+let Comparison = compOp1 == compOp2;
+console.log(Comparison);
+// Check karo 5 === "5"
+let comOp1 = 5;
+let comOp2 = "5";
+let Comparison1 = comOp1 === comOp2;
+console.log(Comparison1);
+// Check karo 10 > 5
+let greater = 10 > 5;
+console.log(greater);
+// Check karo 3 < 1
+let less = 3 < 1;
+console.log(less);
+
+// 8. Increment / Decrement
+
+// Ek variable x = 5 banao aur x++ use karo.
+let x = 5;
+console.log(x);
+x++;
+// Ek variable y = 5 banao aur ++y use karo.
+let y = 5;
+++y;
+// Ek variable ko -- se decrease karo.
+let z = 10;
+--z;
+console.log(z);
+// Pre-increment ka result print karo.
+console.log(y);
+// Post-increment ka result print karo (difference observe karo).
+console.log(x);
